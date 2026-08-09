@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="Heading.html">
+        <label for="fname">name</label><br>
+        <input type="text" placeholder="enter your name" name="fname" id="fname" required>
+       
+        <!-- phone -->/
+
+         <label for="phone">phone number</label>
+         <input type="number" placeholder="enter your number" name="phone" id="phone" >
+
+         <!-- email -->
+
+          <label for="email">Email</label>
+          <input type="email" placeholder="Email" name="email" id="email">
+          <!-- password -->
+           <label for="pass">Password</label>
+           <input type="password" minlength="5" maxlength="8">
+
+           <!-- radio -->
+
+            <p>experience</p>
+            <input type="radio" id="beginner" name="level" value="begin">
+            <label for="beginner">Beginner</label>
+            <input type="radio" id="intermediate" name="level" value="intermediate">
+            <label for="intermediate">intermediate</label>
+
+            <!-- checkbox -->
+
+             <p>Technologies</p>
+             <input type="checkbox" name="tech" id="html" value="html">
+             <label for="html">HTML</label>
+             <input type="checkbox" name="tech" id="css" value="css">
+             <label for="css">CSS</label><br>
+
+             <!-- dropdown -->
+
+              <label for="country">Country</label>
+              <select name="country" id="country">
+                <option value="">choose your country</option>
+                <option value="india">india</option>
+                <option value="uk">uk</option>
+                <option value="usa">usa</option>
+              </select>
+
+              <!-- textarea -->
+
+               <textarea name="msg" id="msg" placeholder="type here.."></textarea>
+               <!-- datepicker -->
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob">
+
+                <!-- fileupload -->
+
+                 <label for="resume">upload your name</label>
+                 <input type="file" name="resume" id="resume" accept="pdf,doc"><br>
+
+         <button type="submit">submit</button><br>
+         <button type="reset">reset</button>
+    </form>
+</body>
+</html>
